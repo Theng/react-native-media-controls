@@ -216,12 +216,6 @@ class MediaControls extends Component<Props, State> {
               minimumTrackTintColor={mainColor}
             />
           </View>
-          <TouchableOpacity
-            style={styles.fullScreenContainer}
-            onPress={onFullScreen}
-          >
-            <Image source={fullScreenImage} />
-          </TouchableOpacity>
         </View>
       </View>
     );
